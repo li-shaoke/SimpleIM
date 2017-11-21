@@ -1,0 +1,46 @@
+create database chatDB charset=utf8;
+use chatDB;
+create table users (
+id int primary key auto_increment,
+username varchar(20),
+password varchar(20),
+sex varchar(10),
+educational varchar(40),
+hobbies varchar(60),
+remark varchar(60)
+);ENGINE_InnoDB
+
+
+
+insert into users(
+username,
+password,
+sex,
+educational,
+hobbies,
+remark
+)
+values(
+'as',
+'as',
+1,
+'master',
+'Reading',
+'test2'
+);
+insert into users(
+username,
+password,
+sex,
+educational,
+hobbies,
+remark
+)
+values(
+'qwe',
+'qwe',
+1,
+'master',
+'Reading',
+'test3'
+);
